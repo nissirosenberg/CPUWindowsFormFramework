@@ -84,7 +84,7 @@ namespace CPUWindowsFormFramework
         {
             int id = 0;
             if(rowindex < grid.Rows.Count && 
-                grid.Columns.Contains(columnname) && 
+                //grid.Columns.Contains(columnname) && 
                 grid.Rows[rowindex].Cells[columnname].Value != DBNull.Value)
 
             {
